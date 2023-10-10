@@ -1,0 +1,50 @@
+/**
+ * IWS - Geo Form Fields 
+ * Version: 1.0
+ */
+
+#iws-error{
+    color: rgb(194, 11, 11);
+}
+/* .iws-info::before{
+    content: "\f348";
+    color: #00a0d2;
+} */
+.iws-help-img{
+    cursor: pointer;
+}
+.iws-admin-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.iws-admin-wrapper .iws-learn-more{
+    padding: 0px 25px;
+    border-left: 1px solid #dddddd;
+    max-width: 300px;
+}
+.iws-admin-wrapper .iws-row{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.iws-row-wrapper .form-field{
+    margin: 20px 0px;
+}
+.iws-admin-wrapper .iws-geo-fields{
+    width: 30%;
+}
+.form-field input[type="text"]{
+    width: 100%;
+}
+
+.form-field #iws_country_list,
+.form-field #iws_state_list,
+.form-field #iws_city_list{
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+}
+
+.iws-add-location-page #iws-sure-is-country{
+    display: none;
+}

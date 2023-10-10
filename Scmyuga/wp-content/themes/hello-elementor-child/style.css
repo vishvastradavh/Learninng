@@ -1,0 +1,254 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash
+Template: hello-elementor
+Author: Elementor Team
+Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash
+Description: A plain-vanilla &amp; lightweight theme for Elementor page builder
+Tags: accessibility-ready,flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 2.7.1.1685507987
+Updated: 2023-05-31 04:39:47
+
+*/
+.content-boxs .elementor-column.elementor-col-25.elementor-inner-column.elementor-element{
+     height: 230px;
+}
+.div_item{
+	display:none!important;
+}
+.div_item.active{
+	display:block!important;
+}
+button.scm-btn-job-data {
+    background: #2f4e62 !important;
+    border: none;
+    width: 80%;
+    margin-top: 13px;
+    text-align: center;
+    display: block;
+    margin: 13px auto;
+}
+.file-upload {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .file-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    background-color: #f3f3f3;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .file-label:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .file-label span {
+    margin-right: 8px;
+  }
+  
+  .file-label svg {
+    width: 18px;
+    height: 18px;
+    stroke: currentColor;
+    stroke-width: 2;
+    vertical-align: middle;
+  }
+  input#form-field-field_22e4511 {
+    background: transparent;
+  }
+  .about-video:before {
+    content: "";
+    width: 60%;
+    position: absolute;
+    background-image: url("https://wordpressdemo.co.in/scmyuga/wp-content/uploads/2023/07/bg.png");
+    height: 50px;
+    top: -5%;
+    left: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(180deg);
+}
+
+.about-video:after {
+    content: "";
+    width: 60%;
+    position: absolute;
+    background-image: url(https://wordpressdemo.co.in/scmyuga/wp-content/uploads/2023/07/bg.png);
+    height: 50px;
+    bottom: -5%;
+    left: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+input[disabled="disabled"],textarea[disabled="disabled"] {
+  background: #d1d1d1 !important;
+}
+a#apply-linkdin {
+  width: 100%;
+  background: #2f4e62;
+}
+a#apply-linkdin i{
+  position: absolute;
+    left: 56%;
+}
+.elementor-field-type-upload.elementor-field-group.elementor-column.elementor-field-group-field_22e4511.elementor-col-100 label.elementor-field-label {
+  z-index: 99;
+  padding: 0px 30px 0px 30px;
+  line-height: 50px;
+  background: #2f4e62;
+}
+input#form-field-field_22e4511 {
+  position: absolute;
+  z-index: 1;
+  left: 8%;
+}
+/* 09-08-2023 */
+.contact-form .elementor-field-type-text {
+  display: block;
+}
+.job-list {
+  height: 500px;
+  overflow-y: scroll;
+}
+.job-list::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+border-radius: 10px;
+background-color: #3ea7a7;
+}
+
+.job-list::-webkit-scrollbar
+{
+width: 12px;
+background-color: #3ea7a7;
+}
+
+.job-list::-webkit-scrollbar-thumb
+{
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: #2f4e62;
+  
+}
+.sub-menu.elementor-nav-menu--dropdown {
+  transition: all 0.2s ease-in-out 0s, visibility 0s linear 0.2s, z-index 0s linear 0.01s;
+  transform: translateY(-2em);
+}
+
+.sub-menu.elementor-nav-menu--dropdown[aria-expanded="true"] {
+transition-delay: 0s, 0s, 0.1s;
+  transform: translateY(0)!important;
+}
+/* 09-08-2023 end*/
+@media only screen and (max-width:900px){
+
+  button.scm-btn-job-data {
+    font-size: 12px;
+   width: 80%;
+  }
+ 
+.elementor-35 .elementor-element.elementor-element-1b7feacd img {
+    
+    height: auto !important;
+}
+}
+ @media only screen and (max-width:600px){
+
+  #apply-linkdin .elementor-align-icon-right {
+    margin-left: 44px;
+  }
+
+  button.scm-btn-job-data {
+    font-size: 12px;
+   width: 80%;
+  }
+     .content-boxs .elementor-column.elementor-col-25.elementor-inner-column.elementor-element {
+         height: 160px;
+    }
+     .content-boxs .elementor-container.elementor-column-gap-default {
+         justify-content: center;
+    }
+     .content-boxs .elementor-column.elementor-col-20.elementor-inner-column.elementor-element{
+         height: 160px;
+    }
+    .type-wirter div#typing-effect_1{
+      font-size: 40px;
+      color: #fff;
+      line-height: 50px;
+    }
+
+}
+ @media all and (device-width:768px) and (device-height:1024px){
+   
+     .content-boxs .elementor-column.elementor-col-20, .elementor-column[data-col="20"]{
+         height: 230px;
+    }
+     .content-boxs .elementor-column.elementor-col-25.elementor-inner-column.elementor-element {
+         height: 180px;
+    }
+     .content-boxs .elementor-container.elementor-column-gap-default {
+         justify-content: center;
+    }
+     .content-boxs .elementor-column.elementor-col-33.elementor-inner-column.elementor-element {
+         height: 180px;
+    }
+     .content-boxs .elementor-column.elementor-col-25, .elementor-column[data-col="25"] {
+         width: 23%;
+         margin: 7px;
+    }
+   
+}
+ .text {
+overflow: hidden;
+    border-right: 0.15em solid #333;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+div#typing-effect_1 {
+    font-size: 70px;
+	color:#fff;
+    line-height: 100px;
+}
+div#typing-effect_2 {
+    font-size: 70px;
+	color:#fff;
+    line-height: 100px;
+}
+/* .type-wirter h4 {
+  white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid black; 
+      font-size: 24px;
+      animation: typing 4s steps(40) forwards, blink-caret 0.75s step-end infinite;
+    } */
+ @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #333;
+    }
+  }
